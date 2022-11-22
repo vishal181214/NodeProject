@@ -1,0 +1,3135 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.mainHeading {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+}
+
+.headAlign {
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  text-align: center;
+  margin-left: 40vw;
+  overflow-y: hidden;
+}
+
+.theHead {
+  margin-top: 1vh;
+  width: 5vw;
+  height: 10vh;
+  font-size: 32px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  font: normal normal medium 32px/39px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  writing-mode: vertical-lr;
+}
+
+.theSpiran {
+  width: 25vw;
+  height: 10vh;
+  font: normal normal bold 71px/87px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 71px;
+  text-align: left;
+  overflow-y: hidden;
+}
+
+.navMenu {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  background-image: url('./components/img/menu.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+.navigation {
+  height: 3vh;
+  width: 80vw;
+  padding: 1% 3%;
+  margin: auto;
+  border-bottom: 3px solid #F0F0F0;
+  overflow-y: hidden;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation ul li {
+  overflow-y: hidden;
+}
+
+.navItem {
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 18px;
+}
+
+.navItem:hover {
+  border-bottom: 2px solid rgb(155, 150, 150);
+  text-decoration: underline;
+  color: black;
+}
+
+.mainContent {
+  width: 86vw;
+  height: auto;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.firstContent {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+}
+
+.leftImg {
+  height: 65vh;
+  width: 55vw;
+  /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+  box-shadow: 0px 5px 10px;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+.leftImgText {
+  position: absolute;
+  bottom: 15vh;
+  left: 5vw;
+}
+
+.titleText {
+  font: normal normal medium 40px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 40px;
+}
+
+.smallText {
+  font: normal normal medium 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #FCFCFC;
+  opacity: 0.57;
+  font-size: 18px;
+}
+
+.rightimg {
+  width: 30vw;
+  height: 65vh;
+  margin-left: 1.5vw;
+}
+
+.rightTop {
+  width: 29.5vw;
+  height: 31vh;
+  /* background: transparent url('./components/img/imgThree.jpg') 0% 0% no-repeat padding-box; */
+  box-shadow: 0px 5px 10px #0000000D;
+  opacity: 1;
+  background-size: cover;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+.rightSec {
+  margin-top: 3vh;
+  width: 29.5vw;
+  height: 31vh;
+  /* background: transparent url('./components/img/imgThree.jpg') 0% 0% no-repeat padding-box; */
+  box-shadow: 0px 5px 10px #0000000D;
+  overflow: hidden;
+  border-radius: 7px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+}
+
+.rightTopTitleText {
+  font: normal normal medium 32px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 32px;
+  position: absolute;
+  bottom: 10vh;
+  margin-left: 2vw;
+}
+
+.rightTopsmallText {
+  font: normal normal medium 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #FCFCFC;
+  opacity: 0.57;
+  font-size: 18px;
+  position: absolute;
+  bottom: 5vh;
+  margin-left: 4vw;
+}
+
+.theLatest {
+  height: 10vh;
+  padding: 2%;
+  width: 86vw;
+  font: normal normal medium 40px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 42px;
+  overflow: hidden;
+}
+
+hr {
+  width: 6.5vw;
+  height: 3px;
+  background-color: #F08080;
+  color: #F08080;
+  opacity: 1;
+  border: none;
+  border-radius: 10px;
+}
+
+.hey {
+  margin-top: -30px;
+  width: 6.5vw;
+  height: 3px;
+  background-color: #F08080;
+  color: #F08080;
+  opacity: 1;
+  border: none;
+  border-radius: 10px;
+  margin-left: 2%;
+}
+
+
+.HomesecContent {
+  width: 86vw;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoCard {
+  width: 25vw;
+  height: 70vh;
+  background-color: #FCFCFC;
+  box-shadow: 0px 5px 35px #00000008;
+  border-radius: 7px;
+  opacity: 1;
+}
+
+.algn {
+  margin-right: 0.1vw;
+}
+
+.image {
+  width: 25vw;
+  height: 32vh;
+  /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px 7px 0px 0px;
+  opacity: 1;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.imageText {
+  width: 42vh;
+  height: 35vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  background-color: #FCFCFC;
+}
+
+.imageTitle {
+  font-size: 28px;
+  font-family: Montserrat;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+.imgDesc {
+  margin-top: 2vh;
+  font-size: 15px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #908D8D;
+  opacity: 1;
+}
+
+.lastBlock {
+  margin-top: 6vh;
+}
+
+.dateInfo {
+  font-size: 15px;
+  font-family: Acumin Pro;
+  letter-spacing: 0.85px;
+  color: #404040;
+  opacity: 0.24;
+}
+
+.travel {
+  font-size: 15px;
+  font-family: Montserrat;
+  letter-spacing: 0px;
+  color: #404040;
+  ;
+  opacity: 1;
+  font-weight: 400;
+}
+
+.latestArt {
+  width: 95vw;
+  height: 246vh;
+  display: flex;
+  column-gap: 1.5vw;
+}
+
+.leftArticle {
+  width: 55vw;
+  height: 246vh;
+}
+
+.rightArticle {
+  width: 29.5vw;
+  height: 246vh;
+}
+
+.leftArticle hr {
+  width: 55vw;
+  height: 3px;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.wavesBlock {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  width: 55vw;
+  height: 30vh;
+  display: flex;
+  column-gap: 1vw;
+  overflow: hidden;
+}
+
+.waveImg {
+  margin-left: 3vw;
+  width: 20vw;
+  height: 30vh;
+  background-color: black;
+  /* background: transparent url('./components/img/imgOne.jpg') 0% 0% no-repeat padding-box; */
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.waveText {
+  width: 30vw;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.waveTextHeading {
+  font-size: 35px;
+  font-family: Montserrat Medium;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.waveTextInfo {
+  margin-top: 2vh;
+  font-size: 17px/23px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #908D8D;
+  opacity: 1;
+}
+
+.travAlgn {
+  margin-top: 5vh;
+}
+
+.loadMore {
+  width: 65vw;
+  height: 10vh;
+  display: flex;
+  padding: 5%;
+}
+
+.loadImg {
+  width: 15px;
+  height: 25px;
+  background: transparent url('./components/img/arrow.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 1vw;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.loadMore p {
+  font-size: 19px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+  margin-left: 1vw;
+}
+
+.HomegalleryImg {
+  width: 55vw;
+  height: 73vh;
+  margin-top: 3vh;
+  /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 5px;
+  opacity: 1;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallTitle {
+  font-size: 40px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
+  bottom: 30vh;
+  left: 15vw;
+}
+
+.travGall {
+  font-size: 17px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
+  bottom: 20vh;
+  left: 22vw;
+}
+
+.advert {
+  width: 29vw;
+  height: 100vh;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  text-align: center;
+}
+
+.advert p {
+  font-size: 40px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 50vh;
+}
+
+.topPost {
+  width: 29.5vw;
+  height: 135vh;
+  margin-top: 10vh;
+  overflow: hidden;
+}
+
+.topImage {
+  margin-top: 3%;
+  width: 29.4vw;
+  height: 40vh;
+  /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 3px;
+  opacity: 1;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.topText {
+  overflow-y: hidden;
+  width: 29.4vw;
+  height: 12vh;
+  padding: 5%;
+  display: flex;
+}
+
+.topTitle {
+  font-size: 20px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.trav {
+  margin-top: 3vh;
+}
+
+.ltext {
+  width: 20vw;
+  height: 14vh;
+}
+
+.num {
+  width: 7vw;
+  height: 14vh;
+  text-align: center;
+  font-size: 74px;
+  font-family: Fira Sans;
+  letter-spacing: 1.48px;
+  color: #F0F0F0;
+  opacity: 1;
+}
+
+.num p {
+  margin-top: 1vh;
+}
+
+.topPost hr {
+  width: 29.5vw;
+  height: 3px;
+  margin: 2.6% 0%;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.topTextImg {
+  width: 10vw;
+  height: 16vh;
+  margin: auto;
+  /* background: transparent url('./components/img/NatureOne.webp') 0% 0% no-repeat padding-box; */
+  background-size: cover;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 2px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.ltextOne {
+  padding: 4% 0% 0% 1%;
+  width: 14vw;
+  height: 18vh;
+  margin-left: 2%;
+}
+
+.topTextOne {
+  overflow-y: hidden;
+  width: 29.4vw;
+  height: 18vh;
+  padding: 0%;
+  display: flex;
+}
+
+.cardInfo hr {
+  width: 95vw;
+  height: 3px;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.cardDiv {
+  width: 80vw;
+  height: 55vh;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1vw;
+  overflow: hidden;
+}
+
+.cards {
+  width: 25vw;
+  height: 65vh;
+  padding: 1%;
+}
+
+.cardsTitle {
+  padding-top: 1%;
+  font-size: 32px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cardsInfo {
+  margin-top: 5vh;
+  font-size: 17px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #908D8D;
+  opacity: 1;
+}
+
+.techDate {
+  margin-top: 10vh;
+}
+
+.tech {
+  font-size: 17px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+.today {
+  font-size: 17px;
+  font-family: medium Acumin Pro;
+  letter-spacing: 0.85px;
+  color: #404040;
+  opacity: 0.4;
+}
+
+.cardDiv hr {
+  height: 55vh;
+  margin: auto;
+  width: 3px;
+  transform: matrix(0, 1, -1, 0, 0, 0);
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  writing-mode: vertical-lr;
+}
+
+.viewMore {
+  width: 20px;
+  height: 11px;
+  background: transparent url('./components/img/rightArrow.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 1%;
+  margin-top: 0.8%;
+  overflow: hidden;
+}
+
+/* User Info Page */
+.Imageheader {
+  display: flex;
+  padding: 2% 5%;
+  position: relative;
+  height: 5vh;
+  width: 100%;
+}
+
+.ImageHead {
+  width: 5vw;
+  height: 5vh;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  font-size: 19px;
+  font-family: medium Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 5px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  position: absolute;
+  left: 5.5%;
+}
+
+.imageSpiran {
+  font-size: 44px;
+  font-family: medium Montserrat;
+  font-weight: bold;
+  color: #000000;
+  position: absolute;
+  left: 10%;
+}
+
+.btnGet {
+  position: absolute;
+  right: 20%;
+  top: 45%;
+  background-color: transparent;
+  border: 1px solid green;
+  color: green;
+  padding: 0.5% 1%;
+}
+
+.btnGet:hover {
+  background-color: green;
+  color: white;
+}
+
+.imageContent {
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+.options {
+  width: 30%;
+  height: 100vh;
+  text-align: center;
+}
+
+.imageDataInfo {
+  padding-top: 2%;
+  width: 40%;
+  height: auto;
+}
+
+body {
+  position: relative;
+}
+
+.blankDiv {
+  width: 30%;
+  height: 100vh;
+}
+
+.stickyText {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: 65vh;
+}
+
+.clap {
+  width: 15vw;
+  height: 6vh;
+  display: flex;
+}
+
+.clapImg {
+  width: 20%;
+  height: 5vh;
+  background: url('./components/img/rythm.png');
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+
+.followers {
+  margin-left: 1vw;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #939393;
+  opacity: 1;
+}
+
+.share {
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+}
+
+.shareImg {
+  width: 12%;
+  height: 4vh;
+  background-image: url('./components/img/share.png');
+  opacity: 1;
+  background-repeat: repeat;
+}
+
+.shareMsg {
+  margin-left: 2vw;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #939393;
+  opacity: 1;
+}
+
+.imgInfoHeading {
+  font-size: 40px;
+  font-family: Georgia;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.userProf {
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.img {
+  width: 6.7vw;
+  height: 13.5vh;
+  background-image: url('./components/img/Mask\ Group\ 16.png');
+  opacity: 1;
+}
+
+.userDesc {
+  width: 13vw;
+  text-align: center;
+  height: 13.5;
+  padding-top: 6%;
+  padding-left: 2%;
+}
+
+.userName {
+  text-align: left;
+  font-size: 18px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.userInfo {
+  text-align: left;
+  font-family: 14px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+}
+
+.socialIcon {
+  width: 18vw;
+  height: 13vh;
+  overflow: hidden;
+}
+
+.socialIcon ul {
+  display: flex;
+  justify-content: right;
+  margin-top: 25%;
+  padding: 0px 10px;
+}
+
+.facebook {
+  width: 25px;
+  height: 25px;
+  background-image: url('./components/img/facebook.png');
+  background-size: cover;
+  opacity: 1;
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+  background-image: url('./components/img/twitter.png');
+  background-size: cover;
+  opacity: 1;
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+  background-image: url('./components/img/instagram.png');
+  background-size: cover;
+  opacity: 1;
+}
+
+.youtube {
+  width: 30px;
+  height: 30px;
+  background-image: url('./components/img/youTube.png');
+  background-size: cover;
+  opacity: 1;
+}
+
+.reactImage {
+  margin-top: 2%;
+  width: 40vw;
+  height: 45vh;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.reactImage img{
+  width: 100%;
+  height: 100%;
+}
+
+.contImg {
+  margin-top: 5%;
+  padding-top: 2%;
+  width: 40vw;
+  height: 60vh;
+}
+
+.contImg p {
+  text-align: left;
+  font-size: 21px;
+  font-family: normal normal normal Georgia;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.codeImg {
+  width: 40vw;
+  height: 50vh;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.codeImg img{
+  width: 100%;
+  height: 100%;
+}
+
+.Rjava {
+  width: 30vw;
+  height: 5vh;
+  padding: 2vh 0vh;
+  display: flex;
+}
+
+.lang {
+  margin: 1%;
+  width: 5vw;
+  padding: 2px 0px;
+  height: 1.5vw;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.lang p {
+  font-size: 15px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+}
+
+.clapalgn {
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  padding: 2%;
+  padding: 2vh 2vw;
+}
+
+.clapalgnImg {
+  width: 20%;
+  height: 5vh;
+  background: url('./components/img/rythm.png');
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+
+.clapalgnfollowers {
+  margin-left: 1vw;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #939393;
+  opacity: 1;
+  margin-top: 4%;
+}
+
+.clasps {
+  margin-left: 1vw;
+  font-size: 16px;
+  font-family: Open Sans;
+  letter-spacing: 0px;
+  color: #939393;
+  opacity: 1;
+  margin-top: 4%;
+}
+
+.userProfTwo {
+  width: 40vw;
+  height: 17vh;
+  padding: 1%;
+  display: flex;
+}
+
+.userInfoTwo {
+  width: 15vw;
+  padding-left: 2%;
+}
+
+.userImageTwo {
+  width: 7vw;
+  height: 15vh;
+  background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.autInfo {
+  font-size: 14px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+  padding-top: 3%;
+}
+
+.authName {
+  font-size: 18px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-top: 5%;
+}
+
+.authDate {
+  font-size: 14px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+  padding-top: 7%;
+}
+
+.sepe {
+  width: 40vw;
+  height: 2px;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 2% 0%;
+}
+
+.footColor {
+  width: 100vw;
+  background-color: #FAFAFA;
+}
+
+.footer {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+  background-color: #FAFAFA;
+}
+
+.moreSiren {
+  margin-top: 2vh;
+  margin-left: 2vw;
+  width: 20vw;
+  height: 5vh;
+}
+
+.moreSiren p {
+  font-size: 22px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.userCards {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userCared {
+  width: 25vw;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.taggedText {
+  padding: 4%;
+  font-size: 16px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+.authImage {
+  width: 25vw;
+  height: 15vw;
+  box-shadow: 0px 5px 10px #0000000D;
+  border-radius: 7px 7px 0px 0px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.authImage img{
+  width: 100%;
+  height: 100%;
+}
+
+.Joshua {
+  font-size: 32px;
+  font-family: normal normal medium Montserrat;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+  padding: 2%;
+}
+
+.authInfoCard {
+  width: 24vw;
+  height: 15vh;
+  display: flex;
+  padding: 2%;
+}
+
+.Authpic {
+  width: 78px;
+  height: 72px;
+  background: transparent url('./components/img/Mask\ Group\ 16.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+}
+
+.picInfo {
+  width: 20vw;
+  height: 10vh;
+  padding: 5% 0% 0% 2%;
+}
+
+.AuthPicName {
+  font-size: 16px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.AuthPicDate {
+  font-size: 16px;
+  font-family: normal normal normal Open Sans;
+  letter-spacing: 0px;
+  color: #A2A2A2;
+  opacity: 1;
+}
+
+.footSepe {
+  width: 100vw;
+  height: 4px;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 2% 0%;
+}
+
+.travTwo{ margin-top: 3vh;}
+
+@media screen and (min-width:750px) and (max-width:1000px) {
+  .mainHeading {
+    width: 100vw;
+    height: 12vh;
+    text-decoration: none;
+  }
+
+  .headAlign {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    margin-left: 40vw;
+    overflow-y: hidden;
+  }
+
+  .theHead {
+    margin-top: 1vh;
+    width: 5vw;
+    height: 10vh;
+    font-size: 20px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    text-decoration: none;
+  }
+
+  .theSpiran {
+    width: 25vw;
+    height: 10vh;
+    font-family: normal normal bold Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 48px;
+    text-align: left;
+    overflow-y: hidden;
+    text-decoration: none;
+  }
+
+  .navMenu {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-image: url('./components/img/menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10vw;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigationRWD {
+    height: 38vh;
+    width: 100vw;
+    padding: 1% 0%;
+    margin: auto;
+    border-bottom: 3px solid #F0F0F0;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  .navigation ul {
+    justify-content: space-evenly;
+  }
+
+  .navigationRWD ul li {
+    overflow-y: hidden;
+    padding: 1.5%;
+    text-align: center;
+    background-color: #faf5f5;
+  }
+
+  .navItem {
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 16px;
+  }
+
+  .navItem:hover {
+    border-bottom: 2px solid rgb(155, 150, 150);
+    text-decoration: underline;
+    color: black;
+  }
+
+  .mainContent {
+    width: 86vw;
+    height: auto;
+    margin: auto;
+    margin-top: 1%;
+  }
+
+  .firstContent {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+  }
+
+  .leftImg {
+    height: 65vh;
+    width: 55vw;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .leftImgText {
+    position: absolute;
+    bottom: 15vh;
+    left: 5vw;
+  }
+
+  .titleText {
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 35px;
+  }
+
+  .smallText {
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #FCFCFC;
+    opacity: 0.57;
+    font-size: 12px;
+  }
+
+  .rightimg {
+    width: 30vw;
+    height: 65vh;
+    margin-left: 1.5vw;
+  }
+
+  .rightTop {
+    width: 29.5vw;
+    height: 31vh;
+    /* background: transparent url('./components/img/imgThree.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    opacity: 1;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rightSec {
+    margin-top: 3vh;
+    width: 29.5vw;
+    height: 31vh;
+    /* background: transparent url('./components/img/imgThree.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rightTopTitleText {
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10vh;
+    margin-left: 2vw;
+  }
+
+  .rightTopsmallText {
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #FCFCFC;
+    opacity: 0.57;
+    font-size: 12px;
+    position: absolute;
+    bottom: 5vh;
+    margin-left: 4vw;
+  }
+
+  .theLatest {
+    height: 10vh;
+    padding: 2%;
+    width: 86vw;
+    font-family: normal normal medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 25px;
+    overflow: hidden;
+  }
+
+  hr {
+    width: 6.5vw;
+    height: 3px;
+    background-color: #F08080;
+    color: #F08080;
+    opacity: 1;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .hey {
+    margin-top: -30px;
+    width: 6.5vw;
+    height: 3px;
+    background-color: #F08080;
+    color: #F08080;
+    opacity: 1;
+    border: none;
+    border-radius: 10px;
+    margin-left: 2%;
+  }
+
+
+  .HomesecContent {
+    width: 86vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .infoCard {
+    width: 27vw;
+    height: 52vh;
+    background-color: #FCFCFC;
+    box-shadow: 0px 5px 35px #00000008;
+    border-radius: 7px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .algn {
+    margin-right: 0.1vw;
+  }
+
+  .image {
+    width: 27vw;
+    height: 21vh;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .imageText {
+    width: 27vw;
+    height: 30vh;
+    padding: 2px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    background-color: #FCFCFC;
+  }
+
+  .imageTitle {
+    font-size: 22px;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .imgDesc {
+    width: 27vw;
+    margin-top: 2vh;
+    font-size: 13px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .lastBlock {
+    margin-top: 4vh;
+  }
+
+  .dateInfo {
+    font-size: 13px;
+    font-family: Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.24;
+  }
+
+  .travel {
+    font-size: 14px;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    ;
+    opacity: 1;
+    font-weight: 400;
+  }
+
+  .latestArt {
+    width: 95vw;
+    height: 205vh;
+    display: flex;
+    column-gap: 1.5vw;
+    overflow: hidden;
+  }
+
+  .leftArticle {
+    width: 55vw;
+    height: 246vh;
+  }
+
+  .rightArticle {
+    width: 29.5vw;
+    height: 246vh;
+  }
+
+  .leftArticle hr {
+    width: 55vw;
+    height: 3px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .wavesBlock {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    width: 55vw;
+    height: 25vh;
+    display: flex;
+    column-gap: 1vw;
+    overflow: hidden;
+  }
+
+  .waveImg {
+    margin-left: 3vw;
+    width: 20vw;
+    height: 23vh;
+    background-color: black;
+    /* background: transparent url('./components/img/imgOne.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .waveText {
+    width: 30vw;
+    height: 22vh;
+    overflow: hidden;
+  }
+
+  .waveTextHeading {
+    font-size: 20px;
+    font-family: Montserrat Medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .waveTextInfo {
+    margin-top: 2vh;
+    font-size: 12px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .travAlgn {
+    margin-top: 2vh;
+  }
+
+  .loadMore {
+    width: 65vw;
+    height: 3vh;
+    display: flex;
+    padding: 5%;
+  }
+
+  .loadImg {
+    width: 12px;
+    height: 20px;
+    background: transparent url('./components/img/arrow.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 1vw;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .loadMore p {
+    font-size: 12px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    margin-left: 1vw;
+  }
+
+  .HomegalleryImg {
+    width: 55vw;
+    height: 55vh;
+    margin-top: 5vh;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 5px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .galleryImg {
+    width: 55vw;
+    height: 53vh;
+    margin-top: 3vh;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 5px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gallTitle {
+    font-size: 30px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    bottom: 20vh;
+    left: 15vw;
+  }
+
+  .travGall {
+    font-size: 14px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    bottom: 15vh;
+    left: 22vw;
+  }
+
+  .advert {
+    width: 29vw;
+    height: 100vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .advert p {
+    font-size: 25px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 50vh;
+  }
+
+  .topPost {
+    width: 29.5vw;
+    height: 135vh;
+    margin-top: 5vh;
+  }
+
+  .topImage {
+    margin-top: 3%;
+    width: 29.4vw;
+    height: 20vh;
+    /* background: transparent urlurl('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .topText {
+    overflow-y: hidden;
+    width: 29.4vw;
+    height: 12vh;
+    padding: 5%;
+    display: flex;
+  }
+
+  .topTitle {
+    font-size: 18px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .topTitleTwo {
+    font-size: 13px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .trav {
+    margin-top: 2vh;
+  }
+
+  .travTwo span {
+    margin-top: 4vh;
+    font-size: 10px;
+  }
+
+  .ltext {
+    width: 20vw;
+    height: 14vh;
+  }
+
+  .num {
+    width: 7vw;
+    height: 12vh;
+    text-align: center;
+    font-size: 44px;
+    font-family: Fira Sans;
+    letter-spacing: 1.48px;
+    color: #F0F0F0;
+    opacity: 1;
+  }
+
+  .num p {
+    margin-top: 1vh;
+  }
+
+  .topPost hr {
+    width: 29.5vw;
+    height: 3px;
+    margin: 2.6% 0%;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 5px;
+  }
+
+  .topTextImg {
+    width: 12vw;
+    height: 12vh;
+    margin: auto;
+    /* background: transparent url('./components/img/NatureOne.webp') 0% 0% no-repeat padding-box; */
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .ltextOne {
+    padding: 4% 0% 0% 1%;
+    width: 14vw;
+    height: 16vh;
+    margin-left: 2%;
+  }
+
+  .topTitle {
+    font-size: 14px;
+  }
+
+  .travel,
+  .dateInfo {
+    font-size: 8px;
+  }
+
+  .topTextOne {
+    overflow-y: hidden;
+    width: 29.4vw;
+    height: 12vh;
+    padding: 0%;
+    display: flex;
+  }
+
+  .cardInfo {
+    margin-top: -4%;
+    overflow: hidden;
+  }
+
+  .cardInfo hr {
+    width: 95vw;
+    height: 3px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .cardDiv {
+    margin-top: 2%;
+    width: 86vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1vw;
+    overflow: hidden;
+  }
+
+  .cards {
+    width: 25vw;
+    height: 35vh;
+    padding: 1%;
+    overflow: hidden;
+  }
+
+  .cardsTitle {
+    padding-top: 1%;
+    font-size: 25px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .cardsInfo {
+    margin-top: 5vh;
+    font-size: 14px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .techDate {
+    margin-top: 3vh;
+  }
+
+  .tech {
+    font-size: 14px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .today {
+    font-size: 14px;
+    font-family: medium Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.4;
+  }
+
+  .cardDiv hr {
+    height: 55vh;
+    margin: auto;
+    width: 3px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+  }
+
+  .viewMore {
+    width: 20px;
+    height: 11px;
+    background: transparent url('./components/img/rightArrow.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 1%;
+    margin-top: 0.8%;
+  }
+}
+
+@media screen and (min-width:550px) and (max-width:750px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mainHeading {
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+  }
+
+  .headAlign {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    margin-left: 4vw;
+    overflow-y: hidden;
+  }
+
+  .theHead {
+    margin-top: 1vh;
+    width: 5vw;
+    height: 10vh;
+    font-size: 25px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    font: normal normal medium 32px/39px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+  }
+
+  .theSpiran {
+    width: 25vw;
+    height: 10vh;
+    font: normal normal bold 71px/87px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 48px;
+    text-align: left;
+    overflow-y: hidden;
+  }
+
+  .navMenu {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-image: url('./components/img/menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10vw;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigationRWD {
+    height: 38vh;
+    width: 100vw;
+    padding: 1% 0%;
+    margin: auto;
+    border-bottom: 3px solid #F0F0F0;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  .navigation ul {
+    justify-content: space-evenly;
+  }
+
+  .navigationRWD ul li {
+    overflow-y: hidden;
+    padding: 1.5%;
+    text-align: center;
+    background-color: #faf5f5;
+  }
+
+  .navItem {
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 22px;
+  }
+
+  .navItem:hover {
+    border-bottom: 2px solid rgb(155, 150, 150);
+    text-decoration: underline;
+    color: black;
+  }
+
+  .mainContent {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    margin-top: 1%;
+  }
+
+  .firstContent {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+  }
+
+  .leftImg {
+    height: 65vh;
+    width: 100vw;
+    /* background: transparent urlurl('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .leftImgText {
+    position: absolute;
+    bottom: 15vh;
+    left: 5vw;
+  }
+
+  .titleText {
+    font: normal normal medium 40px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 40px;
+  }
+
+  .smallText {
+    font: normal normal medium 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FCFCFC;
+    opacity: 0.57;
+    font-size: 18px;
+  }
+
+  .rightimg {
+    width: 30vw;
+    height: 65vh;
+    margin-left: 1.5vw;
+    display: none;
+  }
+
+  .rightTop {
+    width: 29.5vw;
+    height: 31vh;
+    /* background: transparent url('./components/img/imgThree.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    opacity: 1;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rightSec {
+    margin-top: 3vh;
+    width: 29.5vw;
+    height: 31vh;
+    /* background: transparent url('./components/img/imgThree.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rightTopTitleText {
+    font: normal normal medium 32px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 32px;
+    position: absolute;
+    bottom: 10vh;
+    margin-left: 2vw;
+  }
+
+  .rightTopsmallText {
+    font: normal normal medium 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FCFCFC;
+    opacity: 0.57;
+    font-size: 18px;
+    position: absolute;
+    bottom: 5vh;
+    margin-left: 4vw;
+  }
+
+  .theLatest {
+    height: 10vh;
+    padding: 2%;
+    width: 86vw;
+    font: normal normal medium 40px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 42px;
+    overflow: hidden;
+  }
+
+  hr {
+    width: 6.5vw;
+    height: 3px;
+    background-color: #F08080;
+    color: #F08080;
+    opacity: 1;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .hey {
+    margin-top: -30px;
+    width: 6.5vw;
+    height: 3px;
+    background-color: #F08080;
+    color: #F08080;
+    opacity: 1;
+    border: none;
+    border-radius: 10px;
+    margin-left: 2%;
+  }
+
+
+  .HomesecContent {
+    width: 80vw;
+    height: 240vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .infoCard {
+    width: 100vw;
+    height: 30vh;
+    background-color: #FCFCFC;
+    box-shadow: 0px 5px 35px #00000008;
+    border-radius: 7px;
+    opacity: 1;
+  }
+
+  .algn {
+    margin-right: 0.1vw;
+  }
+
+  .image {
+    width: 80vw;
+    height: 32vh;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .wavesBlock{overflow: hidden;}
+
+  .imageText {
+    width: 80vh;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    background-color: #FCFCFC;
+  }
+
+  .imageTitle {
+    font-size: 32px;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .imgDesc {
+    width: 60vw;
+    margin-top: 2vh;
+    font-size: 17px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .lastBlock {
+    margin-top: 6vh;
+  }
+
+  .dateInfo {
+    font-size: 17px;
+    font-family: Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.24;
+  }
+
+  .travel {
+    font-size: 17px;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    ;
+    opacity: 1;
+    font-weight: 400;
+  }
+
+  .latestArt {
+    width: 100vw;
+    height: 300vh;
+    display: block;
+    overflow: hidden;
+  }
+
+  .leftArticle {
+    width: 100vw;
+    height: 160vh;
+    overflow: hidden;
+  }
+
+  .rightArticle {
+    width: 100vw;
+    height: 255vh;
+  }
+
+  .leftArticle hr {
+    width: 100vw;
+    height: 3px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .wavesBlock {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+  }
+
+  .waveImg {
+    margin-left: 7vw;
+    width: 30vw;
+    height: 30vh;
+    background-color: black;
+    /* background: transparent url('./components/img/imgOne.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .waveText {
+    width: 60vw;
+    height: 33vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .waveTextHeading {
+    font-size: 40px;
+    font-family: Montserrat Medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .waveTextInfo {
+    margin-top: 2vh;
+    font-size: 17px/23px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .travAlgn {
+    margin-top: 7vh;
+  }
+
+  .loadMore {
+    width: 65vw;
+    height: 10vh;
+    display: flex;
+    padding: 5%;
+  }
+
+  .loadImg {
+    width: 15px;
+    height: 25px;
+    background: transparent url('./components/img/arrow.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 1vw;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .loadMore p {
+    font-size: 19px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    margin-left: 1vw;
+  }
+
+  .galleryImg {
+    width: 55vw;
+    height: 73vh;
+    margin-top: 3vh;
+    /* background: transparent url('./components/img/imgOne.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 5px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+    display: none;
+    overflow: hidden;
+  }
+
+  .gallTitle {
+    font-size: 40px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    bottom: 30vh;
+    left: 15vw;
+  }
+
+  .travGall {
+    font-size: 17px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    bottom: 20vh;
+    left: 22vw;
+  }
+
+  .advert {
+    width: 29vw;
+    height: 0vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    text-align: center;
+    display: none;
+  }
+
+  .topPost {
+    width: 90vw;
+    height: 155vh;
+    margin-top: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .topImage {
+    margin-top: 5%;
+    width: 80vw;
+    height: 40vh;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .topText {
+    overflow-y: hidden;
+    width: 80vw;
+    height: 12vh;
+    padding: 5%;
+    display: flex;
+  }
+
+  .topTitle {
+    width: 60vw;
+    font-size: 30px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .trav {
+    text-align: left;
+    margin-top: 3vh;
+  }
+
+  .ltext {
+    width: 60vw;
+    height: 14vh;
+  }
+
+  .num {
+    width: 70vw;
+    height: 14vh;
+    text-align: center;
+    font-size: 74px;
+    font-family: Fira Sans;
+    letter-spacing: 1.48px;
+    color: #F0F0F0;
+    opacity: 1;
+  }
+
+  .num p {
+    margin-top: 1vh;
+  }
+
+  .topPost hr {
+    width: 29.5vw;
+    height: 3px;
+    margin: 2.6% 0%;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 5px;
+  }
+
+  .topTextImg {
+    width: 40vw;
+    height: 18vh;
+    margin: auto;
+    /* background: transparent url('./components/img/NatureOne.webp') 0% 0% no-repeat padding-box; */
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .latestArt{
+    height: 160vh;
+  }
+
+  .ltextOne {
+    padding: 4% 0% 0% 1%;
+    width: 33vw !important;
+    height: 18vh;
+    margin-left: 2%;
+  }
+
+  .topTextOne {
+    width: 100vw !important;
+    height: 18vh;
+    padding: 0%;
+    display: block;
+  }
+
+  .topTitleTwo {
+    width: 60vw;
+    font-size: 30px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .cardInfo {
+    overflow: hidden;
+  }
+
+  .cardInfo hr {
+    width: 95vw;
+    height: 3px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .alignright{
+    margin-top: 0vh;
+  }
+
+  .cardDiv {
+    width: 90vw;
+    height: 125vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .cards {
+    width: 100vw;
+    height: 40vh;
+    padding: 1% 3%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .cardsTitle {
+    padding-top: 1%;
+    font-size: 40px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .cardsInfo {
+    width: 80vw;
+    margin-top: 5vh;
+    font-size: 17px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .techDate {
+    margin-top: 6vh;
+  }
+
+  .tech {
+    font-size: 17px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .today {
+    font-size: 17px;
+    font-family: medium Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.4;
+  }
+
+  .cardDiv hr {
+    display: none;
+    height: 55vh;
+    margin: auto;
+    width: 3px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+  }
+
+  .viewMore {
+    width: 20px;
+    height: 11px;
+    background: transparent url('./components/img/rightArrow.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 1%;
+    margin-top: 0.8%;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:550px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mainHeading {
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+  }
+
+  .headAlign {
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    margin-left: 4vw;
+    overflow-y: hidden;
+  }
+
+  .theHead {
+    margin-top: 1vh;
+    width: 5vw;
+    height: 10vh;
+    font-size: 25px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    font: normal normal medium 32px/39px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+  }
+
+  .theSpiran {
+    width: 25vw;
+    height: 10vh;
+    font: normal normal bold 71px/87px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 48px;
+    text-align: left;
+    overflow-y: hidden;
+  }
+
+  .navMenu {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-image: url('./components/img/menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10vw;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigationRWD {
+    height: 35vh;
+    width: 100vw;
+    padding: 1% 0%;
+    margin: auto;
+    border-bottom: 3px solid #F0F0F0;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  .navigation ul {
+    justify-content: space-evenly;
+  }
+
+  .navigationRWD ul li {
+    overflow-y: hidden;
+    padding: 1.5%;
+    text-align: center;
+    background-color: #faf5f5;
+  }
+
+  .navItem {
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 22px;
+  }
+
+  .navItem:hover {
+    border-bottom: 2px solid rgb(155, 150, 150);
+    text-decoration: underline;
+    color: black;
+  }
+
+  .mainContent {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    margin-top: 1%;
+  }
+
+  .firstContent {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+  }
+
+  .leftImg {
+    height: 65vh;
+    width: 100vw;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .leftImgText {
+    position: absolute;
+    bottom: 15vh;
+    left: 5vw;
+  }
+
+  .titleText {
+    font: normal normal medium 40px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 40px;
+  }
+
+  .smallText {
+    font: normal normal medium 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FCFCFC;
+    opacity: 0.57;
+    font-size: 18px;
+  }
+
+  .rightimg {
+    width: 30vw;
+    height: 65vh;
+    margin-left: 1.5vw;
+    display: none;
+  }
+
+  .rightTop {
+    width: 29.5vw;
+    height: 31vh;
+    /* background: transparent url('./components/img/imgThree.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    opacity: 1;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rightSec {
+    margin-top: 3vh;
+    width: 29.5vw;
+    height: 31vh;
+    /* background: transparent url('./components/img/imgThree.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px;
+    opacity: 1;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rightTopTitleText {
+    font: normal normal medium 32px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 32px;
+    position: absolute;
+    bottom: 10vh;
+    margin-left: 2vw;
+  }
+
+  .rightTopsmallText {
+    font: normal normal medium 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FCFCFC;
+    opacity: 0.57;
+    font-size: 18px;
+    position: absolute;
+    bottom: 5vh;
+    margin-left: 4vw;
+  }
+
+  .theLatest {
+    height: 10vh;
+    padding: 2%;
+    width: 86vw;
+    font: normal normal medium 40px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 42px;
+    overflow: hidden;
+  }
+
+  hr {
+    width: 25vw;
+    height: 3px;
+    background-color: #F08080;
+    color: #F08080;
+    opacity: 1;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .hey {
+    margin-top: -10px;
+    width: 25vw;
+    height: 3px;
+    background-color: #F08080;
+    color: #F08080;
+    opacity: 1;
+    border: none;
+    border-radius: 10px;
+    margin-left: 2%;
+  }
+
+
+  .HomesecContent {
+    width: 80vw;
+    height: 200vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .infoCard {
+    width: 100vw;
+    height: 80vh;
+    background-color: #FCFCFC;
+    box-shadow: 0px 5px 35px #00000008;
+    border-radius: 7px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .algn {
+    margin-right: 0.1vw;
+  }
+
+  .image {
+    width: 80vw;
+    height: 32vh;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .imageText {
+    width: 80vw;
+    height: 35vh;
+    margin-left: 10vw;
+    margin-right: auto;
+    margin-top: 2vh;
+    overflow: hidden;
+  }
+
+  .imageTitle {
+    font-size: 25px;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .imgDesc {
+    width: 60vw;
+    margin-top: 2vh;
+    font-size: 13px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .lastBlock {
+    margin-top: 6vh;
+  }
+
+  .dateInfo {
+    font-size: 17px;
+    font-family: Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.24;
+  }
+
+  .travel {
+    font-size: 17px;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    ;
+    opacity: 1;
+    font-weight: 400;
+  }
+
+  .latestArt {
+    width: 100vw;
+    height: 300vh;
+    display: block;
+    overflow: hidden;
+  }
+
+  .leftArticle {
+    width: 100vw;
+    height: 160vh;
+    overflow: hidden;
+  }
+
+  .rightArticle {
+    width: 100vw;
+    height: 255vh;
+  }
+
+  .leftArticle hr {
+    width: 100vw;
+    height: 3px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .wavesBlock {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+  }
+
+  .waveImg {
+    margin-left: 7vw;
+    width: 40vw;
+    height: 24vh;
+    background-color: black;
+    /* background: transparent url('./components/img/imgOne.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .waveText {
+    width: 60vw;
+    height: 23vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .waveTextHeading {
+    font-size: 23px;
+    font-family: Montserrat Medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .waveTextInfo {
+    margin-top: 2vh;
+    font-size: 14px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .travAlgn {
+    margin-top: 1vh;
+  }
+
+  .travAlgn,
+  .travel,
+  .dateInfo {
+    font-size: 12px;
+  }
+
+  .loadMore {
+    width: 65vw;
+    height: 10vh;
+    display: flex;
+    padding: 5%;
+  }
+
+  .loadImg {
+    width: 15px;
+    height: 25px;
+    background: transparent url('./components/img/arrow.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 1vw;
+    background-size: cover;
+  }
+
+  .loadMore p {
+    font-size: 19px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    margin-left: 1vw;
+  }
+
+  .galleryImg {
+    display: none;
+  }
+
+  .advert {
+    width: 29vw;
+    height: 0vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    text-align: center;
+    display: none;
+  }
+
+  .alignright {
+    margin-top: -32vh;
+  }
+
+  .topPost {
+    width: 90vw;
+    height: 150vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .topImage {
+    margin-top: 5%;
+    width: 90vw;
+    height: 40vh;
+    /* background: transparent url('./components/img/NatureTemp.jpg') 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 3px;
+    opacity: 1;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .topText {
+    overflow-y: hidden;
+    width: 80vw;
+    height: 15vh;
+    padding: 5%;
+    display: flex;
+  }
+
+  .topTitle {
+    width: 60vw;
+    font-size: 30px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .trav {
+    text-align: left;
+    margin-top: 3vh;
+  }
+
+  .ltext {
+    width: 60vw;
+    height: 14vh;
+    overflow: hidden;
+  }
+
+  .num {
+    width: 7vw;
+    height: 14vh;
+    text-align: center;
+    font-size: 74px;
+    font-family: Fira Sans;
+    letter-spacing: 1.48px;
+    color: #F0F0F0;
+    opacity: 1;
+  }
+
+  .num p {
+    margin-top: 1vh;
+  }
+
+  .topPost hr {
+    width: 90vw;
+    height: 3px;
+    margin: 2.6% 0%;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 5px;
+  }
+
+  .topTextImg {
+    width: 30vw;
+    height: 15vh;
+    margin: auto;
+    /* background: transparent url('./components/img/NatureOne.webp') 0% 0% no-repeat padding-box; */
+    background-size: cover;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 2px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .ltextOne {
+    padding: 4% 0% 0% 1%;
+    width: 40vw;
+    height: 18vh;
+    margin-left: 1%;
+  }
+
+  .topTextOne {
+    overflow-y: hidden;
+    width: 100vw;
+    height: 18vh;
+    padding: 0%;
+    display: flex;
+  }
+
+  .topTitleTwo {
+    width: 60vw;
+    font-size: 23px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .cardInfo {
+    overflow: hidden;
+  }
+
+  .cardInfo hr {
+    width: 95vw;
+    height: 3px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .cardDiv {
+    width: 90vw;
+    height: 150vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cards {
+    width: 100vw;
+    height: 40vh;
+    padding: 1% 3%;
+    margin-left: 7vw;
+    margin-right: auto;
+    padding-bottom:20%;
+  }
+
+  .cardsTitle {
+    padding-top: 1%;
+    font-size: 30px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .cardsInfo {
+    width: 80vw;
+    margin-top: 5vh;
+    font-size: 15px;
+    font-family: Open Sans;
+    letter-spacing: 0px;
+    color: #908D8D;
+    opacity: 1;
+  }
+
+  .techDate {
+    margin-top: 6vh;
+  }
+
+  .tech {
+    font-size: 17px;
+    font-family: medium Montserrat;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+  }
+
+  .today {
+    font-size: 15px;
+    font-family: medium Acumin Pro;
+    letter-spacing: 0.85px;
+    color: #404040;
+    opacity: 0.4;
+  }
+
+  .cardDiv hr {
+    display: none;
+    height: 55vh;
+    margin: auto;
+    width: 3px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+  }
+
+  .viewMore {
+    width: 20px;
+    height: 11px;
+    background: transparent url('./components/img/rightArrow.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 1%;
+    margin-top: 3%;
+  }
+
+}
